@@ -1,0 +1,294 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xd9378987512817224f5794A4309fE918D6340838",
+    "txHash": "0x80737969abad668006195d00825b63430c1346dd15b8ad3fd451f2136d7bc7dd"
+  },
+  "proxies": [
+    {
+      "address": "0x54927aeDB1989b0E7d56412B76baA83c32650015",
+      "txHash": "0x95850ec2f4563198b89d3cbe80745560fdd3c0260692db4a3d1379cbfcb39992",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x71621cA685226ddDc4A83faa69075ecAd5C9935c",
+      "txHash": "0x619e02ef523e680460184df9a0a1c5014b1866bea47685746694048eb748b78a",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xc09DFFdad37910672D36e97F7c724D58D9A845EA",
+      "txHash": "0x8b8d676b7c33b893930aedff4c794f389e8b4a15dd94bb04cc73f0c454f9fb07",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x13E722F98589224d6f6fa3aE46b6b60F9c8663b8",
+      "txHash": "0xdfc0044f845289c9fa31ab8e434e36f166fa3b99a67be03cf4c22eb62d474029",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x03112fc63eE50506D4321A0991ADc3C2F2cD96a4",
+      "txHash": "0x15ba7df3ec070383c3ac76b9c73a1cc7da3e5faffd11563f6c74d2d28db64a13",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xF0899A05eD29f6E0f0FCC6f5556d67E7A01B3030",
+      "txHash": "0x50f0c890f1ff0742e04a484ef69a64e6c78fc3723b2e8188eaac29cf98990d1b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x6348eDe7f5E94Ba56c71Aff40a8736D248b34f4e",
+      "txHash": "0xa165e04938cae2e0401e9bc6733049f715496ccda8ff3ec95fbfab77a0e43a56",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xf958cAE0C5A695581089ed3F02D9418408B69479",
+      "txHash": "0x6e8c5c957d3658e87f63423d290b344939fcd950756f232044f0ced18c9a1be6",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xCdc376D63A73898524c3Ae7b5f5A1B286E24fd4c",
+      "txHash": "0x47a88e853d91a879ba5e3b186547c292c1b3348bc8586968b765db23191ebac2",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x1Db3BdfB0B1b35F2ee43387c5185516e9E870C57",
+      "txHash": "0x13f54f4e916799057ccd9aa4bca521ae1741d13cf63b69a8251a4404c59e9f0b",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "299b66047bd3617f84e213dcba56d957f772d9a8027b5b198a9e2246b1d0fed3": {
+      "address": "0x74C40c072d76649BBa9D3f16B08eA0F78292b726",
+      "txHash": "0xfa6416330b522c7e8eec343e27a9acada1f02114add1a86d286d9ccd2f537894",
+      "layout": {
+        "solcVersion": "0.8.14",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:63",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:68"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "approvedContract",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "LockRegistry",
+            "src": "contracts\\Guardian\\LockRegistry.sol:16"
+          },
+          {
+            "label": "lockCount",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "contract": "LockRegistry",
+            "src": "contracts\\Guardian\\LockRegistry.sol:17"
+          },
+          {
+            "label": "lockMap",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_mapping(t_uint256,t_mapping(t_uint256,t_address))",
+            "contract": "LockRegistry",
+            "src": "contracts\\Guardian\\LockRegistry.sol:18"
+          },
+          {
+            "label": "lockMapIndex",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_mapping(t_uint256,t_mapping(t_address,t_uint256))",
+            "contract": "LockRegistry",
+            "src": "contracts\\Guardian\\LockRegistry.sol:19"
+          },
+          {
+            "label": "contractOwner",
+            "offset": 0,
+            "slot": "105",
+            "type": "t_address",
+            "contract": "DigiMonkzMinting",
+            "src": "contracts\\DigiMonkzMinting.sol:19"
+          },
+          {
+            "label": "_admin",
+            "offset": 0,
+            "slot": "106",
+            "type": "t_address",
+            "contract": "DigiMonkzMinting",
+            "src": "contracts\\DigiMonkzMinting.sol:20"
+          },
+          {
+            "label": "totalMintedNum",
+            "offset": 0,
+            "slot": "107",
+            "type": "t_uint256",
+            "contract": "DigiMonkzMinting",
+            "src": "contracts\\DigiMonkzMinting.sol:22"
+          },
+          {
+            "label": "MAX_SUPPLY",
+            "offset": 0,
+            "slot": "108",
+            "type": "t_uint256",
+            "contract": "DigiMonkzMinting",
+            "src": "contracts\\DigiMonkzMinting.sol:23"
+          },
+          {
+            "label": "MINT_PRICE",
+            "offset": 0,
+            "slot": "109",
+            "type": "t_uint256",
+            "contract": "DigiMonkzMinting",
+            "src": "contracts\\DigiMonkzMinting.sol:24"
+          },
+          {
+            "label": "totalMinted",
+            "offset": 0,
+            "slot": "110",
+            "type": "t_uint256",
+            "contract": "DigiMonkzMinting",
+            "src": "contracts\\DigiMonkzMinting.sol:25"
+          },
+          {
+            "label": "baseTokenURI",
+            "offset": 0,
+            "slot": "111",
+            "type": "t_string_storage",
+            "contract": "DigiMonkzMinting",
+            "src": "contracts\\DigiMonkzMinting.sol:27"
+          },
+          {
+            "label": "tokenURISuffix",
+            "offset": 0,
+            "slot": "112",
+            "type": "t_string_storage",
+            "contract": "DigiMonkzMinting",
+            "src": "contracts\\DigiMonkzMinting.sol:28"
+          },
+          {
+            "label": "tokenURIOverride",
+            "offset": 0,
+            "slot": "113",
+            "type": "t_string_storage",
+            "contract": "DigiMonkzMinting",
+            "src": "contracts\\DigiMonkzMinting.sol:29"
+          },
+          {
+            "label": "mintFlag",
+            "offset": 0,
+            "slot": "114",
+            "type": "t_bool",
+            "contract": "DigiMonkzMinting",
+            "src": "contracts\\DigiMonkzMinting.sol:31"
+          },
+          {
+            "label": "totalUserNftList",
+            "offset": 0,
+            "slot": "115",
+            "type": "t_mapping(t_address,t_array(t_uint256)dyn_storage)",
+            "contract": "DigiMonkzMinting",
+            "src": "contracts\\DigiMonkzMinting.sol:33"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(address => uint256[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(uint256 => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_mapping(t_uint256,t_address))": {
+            "label": "mapping(uint256 => mapping(uint256 => address))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        },
+        "namespaces": {}
+      }
+    }
+  }
+}
