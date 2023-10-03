@@ -142,7 +142,7 @@
             "slot": "105",
             "type": "t_address",
             "contract": "DigiMonkzMinting",
-            "src": "contracts\\DigiMonkzMinting.sol:19"
+            "src": "contracts\\DigiMonkzMinting.sol:14"
           },
           {
             "label": "_admin",
@@ -150,7 +150,7 @@
             "slot": "106",
             "type": "t_address",
             "contract": "DigiMonkzMinting",
-            "src": "contracts\\DigiMonkzMinting.sol:20"
+            "src": "contracts\\DigiMonkzMinting.sol:15"
           },
           {
             "label": "totalMintedNum",
@@ -158,7 +158,7 @@
             "slot": "107",
             "type": "t_uint256",
             "contract": "DigiMonkzMinting",
-            "src": "contracts\\DigiMonkzMinting.sol:22"
+            "src": "contracts\\DigiMonkzMinting.sol:17"
           },
           {
             "label": "MAX_SUPPLY",
@@ -166,7 +166,7 @@
             "slot": "108",
             "type": "t_uint256",
             "contract": "DigiMonkzMinting",
-            "src": "contracts\\DigiMonkzMinting.sol:23"
+            "src": "contracts\\DigiMonkzMinting.sol:18"
           },
           {
             "label": "MINT_PRICE",
@@ -174,7 +174,7 @@
             "slot": "109",
             "type": "t_uint256",
             "contract": "DigiMonkzMinting",
-            "src": "contracts\\DigiMonkzMinting.sol:24"
+            "src": "contracts\\DigiMonkzMinting.sol:19"
           },
           {
             "label": "totalMinted",
@@ -182,7 +182,7 @@
             "slot": "110",
             "type": "t_uint256",
             "contract": "DigiMonkzMinting",
-            "src": "contracts\\DigiMonkzMinting.sol:25"
+            "src": "contracts\\DigiMonkzMinting.sol:20"
           },
           {
             "label": "baseTokenURI",
@@ -190,7 +190,7 @@
             "slot": "111",
             "type": "t_string_storage",
             "contract": "DigiMonkzMinting",
-            "src": "contracts\\DigiMonkzMinting.sol:27"
+            "src": "contracts\\DigiMonkzMinting.sol:22"
           },
           {
             "label": "tokenURISuffix",
@@ -198,7 +198,7 @@
             "slot": "112",
             "type": "t_string_storage",
             "contract": "DigiMonkzMinting",
-            "src": "contracts\\DigiMonkzMinting.sol:28"
+            "src": "contracts\\DigiMonkzMinting.sol:23"
           },
           {
             "label": "tokenURIOverride",
@@ -206,7 +206,7 @@
             "slot": "113",
             "type": "t_string_storage",
             "contract": "DigiMonkzMinting",
-            "src": "contracts\\DigiMonkzMinting.sol:29"
+            "src": "contracts\\DigiMonkzMinting.sol:24"
           },
           {
             "label": "mintFlag",
@@ -214,7 +214,7 @@
             "slot": "114",
             "type": "t_bool",
             "contract": "DigiMonkzMinting",
-            "src": "contracts\\DigiMonkzMinting.sol:31"
+            "src": "contracts\\DigiMonkzMinting.sol:26"
           },
           {
             "label": "totalUserNftList",
@@ -222,7 +222,7 @@
             "slot": "115",
             "type": "t_mapping(t_address,t_array(t_uint256)dyn_storage)",
             "contract": "DigiMonkzMinting",
-            "src": "contracts\\DigiMonkzMinting.sol:33"
+            "src": "contracts\\DigiMonkzMinting.sol:28"
           }
         ],
         "types": {
